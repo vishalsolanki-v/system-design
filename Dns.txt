@@ -1,2 +1,14 @@
-what is dns server and how it works?
+DNS (Domain Name System) Server
 
+DNS is like a phone directory for internet . every machine or system which is connected with internet have a specific address same as like we all have our home address and we can share it with others so they can reach us and can communicate with us but machine address are not as simple as our home address they are complex number which are hard to remember (ex: 121.198.001.243) and as our internet is growing more machines are getting connected with internet and remembering each and every one of them is pretty hard like if u have a lot of friends its hard to remember each one of their address thats why directory system came in which help us to organize and store every address in large database and then which ever address we need we can search in that directory and can access it . in the same way DNS system works it helps u to find different machines addresses so u can communicate with them but it is not easy as internet is growing a large number of machines are getting connected with internet and finding them one by one can be really costly and time consuming so some cool engineers divided dns in different small parts which have their own specific roles which not just helps us to find our machines very fastly and effectively but it also created a proper system so they can get a properly structured
+
+What really happen when u hit the url in browser?
+
+so when we hit the url in the browser your request goes to the nearest DNS server which take your request and assign a DNS resolver with you like a assistant which help you to process your request and try to find the machine address as fast as possible for this DNS resolver follow these steps:-
+
+Step 1:- taking your request to the nearest root server
+what is root server? 
+root server is a server have the address of every TLD servers (Top Level Domain ex: .com , .net, .in, .dev ect) so DNS resolver take your request to root server and root server check which TLD is in the request and then return your that TLD server address then DNS resolver moves to next step which is moving to TLD server.
+
+Step 2:- taking your request to the nearest TLD server
+in this step 
